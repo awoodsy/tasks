@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 export function EditMode(): JSX.Element {
     const [inEdit, setEdit] = useState<boolean>(false);
     const [name, setName] = useState<string>("Your Name");
