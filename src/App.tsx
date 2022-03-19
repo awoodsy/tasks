@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { StartAttempt } from "./components/StartAttempt";
@@ -24,6 +23,7 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
             </header>
+            <h1> Hello World </h1>
             <Quizzer></Quizzer>
             <hr></hr>
             <CheckAnswer expectedAnswer="42"></CheckAnswer>
