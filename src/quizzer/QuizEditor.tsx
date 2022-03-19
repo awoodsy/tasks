@@ -14,10 +14,10 @@ export function QuizEditor({
     deleteQuiz: (title: string) => void;
 }): JSX.Element {
     const [title, setTitle] = useState<string>(quiz.title);
-    const [numQuestions, setNum] = useState<string>(quiz.numQuestions);
+    const [numQuestions] = useState<string>(quiz.numQuestions);
     const [points, setPoints] = useState<string>(quiz.totalPoints);
     const [description, setDescription] = useState<string>(quiz.description);
-    const [questions, setQuestions] = useState<Question[]>(quiz.questions);
+    const [questions] = useState<Question[]>(quiz.questions);
 
     function save() {
         editQuiz(quiz.title, {

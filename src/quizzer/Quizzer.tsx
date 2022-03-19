@@ -79,7 +79,7 @@ export function Quizzer(): JSX.Element {
                 -Users can edit quiz name, description and number of questions
             </p>
             <p>-Users can add a quiz</p>
-            <img src="sketch.png" alt="Sketch is supposed to be here" />
+            <img src="./sketch.png" alt="Sketch is supposed to be here" />
         </div>
     );
 }
