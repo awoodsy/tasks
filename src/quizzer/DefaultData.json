@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Quiz 1",
+        "description": "First Quiz",
+        "numQuestions": "3",
+        "totalPoints": "3",
+        "questions": [
+            {
+                "name": "Question 1",
+                "type": "Multiple Choice",
+                "points": "1",
+                "published": true,
+                "options": [
+                    "This is not the right answer",
+                    "This is the right answer",
+                    "This is also not the right answer"
+                ]
+            }, {
+                "name": "Question 2",
+                "type": "Multiple Choice",
+                "points": "1",
+                "published": true,
+                "options": [
+                    "This is not the right answer",
+                    "This is the right answer",
+                    "This is also not the right answer"
+                ]
+            },
+            {
+                "name": "Question 3",
+                "type": "Multiple Choice",
+                "points": "1",
+                "published": true,
+                "options": [
+                    "This is not the right answer",
+                    "This is the right answer",
+                    "This is also not the right answer"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Quiz 2",
+        "description": "Second Quiz",
+        "numQuestions": "2",
+        "totalPoints": "2",
+        "questions": [
+            {
+                "name": "Question 1",
+                "type": "Multiple Choice",
+                "points": "1",
+                "published": true,
+                "options": [
+                    "This is not the right answer",
+                    "This is the right answer",
+                    "This is also not the right answer"
+                ]
+            }, {
+                "name": "Question 2",
+                "type": "Multiple Choice",
+                "points": "1",
+                "published": true,
+                "options": [
+                    "This is not the right answer",
+                    "This is the right answer",
+                    "This is also not the right answer"
+                ]
+            }
+        ]
+    }
+]
