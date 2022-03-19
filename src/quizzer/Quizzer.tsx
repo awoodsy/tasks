@@ -5,6 +5,7 @@ import { Quiz } from "./Interfaces";
 import { QuizList } from "./QuizList";
 import { AddQuizModal } from "./AddQuizModal";
 import { Button } from "react-bootstrap";
+import sketch from "./sketch.png";
 const QUIZZES = data.map((quiz): Quiz => ({ ...quiz }));
 //changing published status of question
 // function switchPublished(question: Question, published: boolean): Question {
@@ -78,8 +79,23 @@ export function Quizzer(): JSX.Element {
             <p>
                 -Users can edit quiz name, description and number of questions
             </p>
-            <p>-Users can add a quiz</p>
-            <img src="./sketch.png" alt="Sketch is supposed to be here" />
+            <p>-Users can add or delete a quiz</p>
+            <p>
+                -Multiple choice questions are available but could not figure
+                out selcting the choice in time
+            </p>
+            <p>-Can see a check or x mark depending on the answer</p>
+            <p>-Added sketch</p>
+            <img
+                src={sketch}
+                alt="Sketch is supposed to be here"
+                width={500}
+                height={500}
+            />
+            <span>
+                My left hand is broken right now and I am a lefty so apologies
+                if it looks like barely english
+            </span>
         </div>
     );
 }
