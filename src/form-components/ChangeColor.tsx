@@ -26,8 +26,8 @@ export function ChangeColor(): JSX.Element {
                     <>
                         <Form.Check
                             inline
-                            key={color}
                             type="radio"
+                            key={color}
                             value={color}
                             onChange={updateColor}
                             label={
