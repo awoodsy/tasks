@@ -5,7 +5,6 @@ import { Quiz } from "./Interfaces";
 import { QuizList } from "./QuizList";
 import { AddQuizModal } from "./AddQuizModal";
 import { Button } from "react-bootstrap";
-
 const QUIZZES = data.map((quiz): Quiz => ({ ...quiz }));
 //changing published status of question
 // function switchPublished(question: Question, published: boolean): Question {
