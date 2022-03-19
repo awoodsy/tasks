@@ -8,12 +8,12 @@ import { Button } from "react-bootstrap";
 
 const QUIZZES = data.map((quiz): Quiz => ({ ...quiz }));
 //changing published status of question
-function switchPublished(question: Question, published: boolean): Question {
-    return {
-        ...question,
-        published: !published
-    };
-}
+// function switchPublished(question: Question, published: boolean): Question {
+//     return {
+//         ...question,
+//         published: !published
+//     };
+// }
 export function Quizzer(): JSX.Element {
     const [quizzes, setQuiz] = useState<Quiz[]>(QUIZZES);
     const [showAddModal, setShowAddModal] = useState(false);
